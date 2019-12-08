@@ -9,14 +9,8 @@ Vue.config.productionTip = false
 require("firebase/firestore");
 
 var firebaseConfig = {
-  apiKey: "AIzaSyDAt6I13zbayOd4Fyo1cBPsok_yP5AZlIE",
-  authDomain: "vuefirechat98.firebaseapp.com",
-  databaseURL: "https://vuefirechat98.firebaseio.com",
-  projectId: "vuefirechat98",
-  storageBucket: "vuefirechat98.appspot.com",
-  messagingSenderId: "23587825565",
-  appId: "1:23587825565:web:8df49b6677571c36637174",
-  measurementId: "G-6CQTVQ2X14"
+  //your firebase credentials
+  
 };
 firebase.initializeApp(firebaseConfig);
 
